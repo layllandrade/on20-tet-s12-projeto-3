@@ -34,12 +34,12 @@ createCard = (user) => {
       <p class='profile-description'>${bio ? bio : ""}</p>
       <div class='profile-infos'>
         <div class='info-box'>
-          <img src='../assets/people_outline.png' class='box-icon'>
+          <img src='../../assets/people_outline.png' class='box-icon'>
           <p class='box-text'>${followers}</p>
         </div>
         <a class='link-repositories'>
           <div class='info-box'>
-            <img src='../assets/Vector.png' class='box-icon'>
+            <img src='../../assets/Vector.png' class='box-icon'>
             <p class='box-text'>${public_repos}</p>
           </div> 
         </a>
@@ -97,7 +97,7 @@ createRepositoriesCards = (repositories) => {
         <div class='repository-details'>
           <p class='repository-text'>${language ? language : "não-definida"}</p>
           <p class='repository-icon'>
-            <img src="../assets/star.png">
+            <img src="../../assets/star.png">
             ${stargazers_count}
           </p>
         </div>
